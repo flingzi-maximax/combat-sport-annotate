@@ -1,0 +1,8 @@
+app/node_modules/
+app/dist/
+outputs/
+__pycache__/
+*.pyc
+*.pth
+*.pkl
+.env
