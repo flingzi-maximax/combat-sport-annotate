@@ -22,6 +22,7 @@ echo.
 echo Detecting athletes in video...
 echo This may take a few minutes depending on video length.
 echo.
+cd /d "%~dp0"
 python prep_clip.py --video "%VIDEO_PATH%"
 
 echo.
